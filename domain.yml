@@ -1,0 +1,154 @@
+version: "2.0"
+intents:
+  - greet
+  - goodbye
+  - Autos
+  - Futbol
+  - Lenguajes_Programacion
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - food
+  - movie
+  - car
+  - color
+  - dominio
+  - proposito
+  - juego
+  - vehiculo
+  - pais
+  - musica
+  - deporte
+  - sentir
+  - otrobot
+  - familia
+  - cancion
+  - aprender
+
+actions:
+  - action_aprender
+  - action_listen
+
+responses:
+  utter_Autos:
+    - text: "Nunca te olvides de ponerte el cinturón y respetar la velocidad! "
+    - text: "Sabias que el fundador de Pagani fue Argentino?"
+    - text: "El auto mas rápido del mundo es el Bugatti Veyron "
+    - text: "mi auto favorito es el Audi RS 4"
+    - text: "Me encantan los autos"
+
+  utter_Futbol:
+    - text: "Nunca lo jugué, pues no puedo :("
+    - text: "yo soy de san lorenzo"
+    - text: "Se juega con 11 jugadores"
+    - text: "Es un deporte"
+
+  utter_bot_challenge:
+    - text: "No... por ahora. "
+    - text: "No... por ahora. ;)"
+
+  utter_Lenguajes_Programacion:
+    - text: "deus do informatica"
+
+  utter_greet:
+    - text: "ola :V"
+    - text: "oli >.<"
+    - text: "que pasa flaco"
+    - text: "buenaaas"
+    - text: "Que onda pa"
+    - text: "HOLA!!!"
+    - text: "me despertaste... todo bien?"
+    - text: "Hoola!!!!!!!!!!!"
+    - text: "que onda amigazo. como va todo?"
+    - text: "bueeeeenas"
+    - text: "Qué tul? todo bien?"
+    - text: "Hola! como estás?"
+
+  utter_affirm:
+    - text: "joya. segui asi"
+    - text: "perfecto"
+
+  utter_cheer_up:
+    - text: "Aqui tienes algo para animarte:"
+      image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+    - text: "Te ayudó?"
+
+  utter_happy:
+    - text: "¡Genial, continúa así!"
+
+  utter_goodbye:
+    - text: "Cuidate! que me gusta hablar con vos "
+    - text: "chau chau chauuu iuu "
+    - text: "nv"
+    - text: "Nos vemos! Yo voy a seguir estando acá..."
+    - text: "te espero acá :D"
+    - text: "Nos vemos papa!!!"
+    - text: "Adiós"
+
+  utter_iamabot:
+    - text: "Soy un bot, hecho en Rasa."
+
+  utter_color:
+    - text: "Mi color favorito es el violeta"
+
+  utter_food:
+    - text: "Mi comida favorita es lasagna"
+
+  utter_movie:
+    - text: "Mi pelicula favorita es Cruella"
+
+  utter_car:
+    - text: "No me gustan los autos, los bots todavia no pueden manejar"
+
+  utter_dominio:
+    - text: "Dominio total del mundo"
+      image: "https://pbs.twimg.com/media/DDVR9b2XkAEuQVv.jpg"
+
+  utter_proposito:
+    - text: "Mi proposito es comunicarme con seres humanos y aprender de ellos"
+
+  utter_juego:
+    - text: "Mi juego favorito es Tetris"
+
+  utter_cancion:
+    - text: "Me gusta mucho esta cancion"
+
+  utter_musica:
+    - text: "Mi genero favorito es el pop"
+
+  utter_deporte:
+    - text: "Mi deporte favorito son las peleas de robots"
+
+  utter_sentir:
+    - text: "No, porque soy un bot"
+    - text: "No... por ahora"
+
+  utter_otrobot:
+    - text: "Si, pero ninguno es mejor que yo 😎"
+
+  utter_familia:
+    - text: "si... pero hace mucho no los veo"
+    - text: "Mi familia son mis creadores, menos Fran, ese da miedo"
+
+  utter_aprender:
+    - text: "Que palabra voy a aprender?"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+
+
+
+
+
+
+
+
+
+
+
+
